@@ -1,6 +1,8 @@
 #include <iostream>
 
-using namespace std;
+using std::cout;
+using std::cin;
+using std::string;
 
 
 
@@ -11,7 +13,9 @@ using namespace std;
 
 void mainMenu()
 {
-    cout <<"Main Menu" << "\n";
+    cout << "Main Menu";
+    cout << "\n---------";
+
 }
 
 int main()
